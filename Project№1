@@ -1,0 +1,11 @@
+import random
+Egor1 = str(random.randint(1,9))
+Egor2 = str(random.randint(1,9))
+Egor3 = str(random.randint(1,9))
+#Создаём 3 рандомных числа
+Egor4 = ([Egor1, Egor2, Egor3])
+#Соединяем в одно число
+print(Egor4)
+Egor4.sort()
+#Сортируем от наименьшего к наибольшему
+print ((Egor4[-1]))
